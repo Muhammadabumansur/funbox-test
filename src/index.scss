@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Exo20';
+  src: url('./assets/fonts/exo20-thin.woff2') format('woff2'),
+  url('./assets/fonts/exo20-thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('./assets/fonts/trebuchet-ms.woff2') format('woff2'),
+  url('./assets/fonts/trebuchet-ms.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('./assets/fonts/trebuchet-ms-bold.woff2') format('woff2'),
+  url('./assets/fonts/trebuchet-ms-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #222;
+  background-image: url('./assets/images/bg-main.jpg');
+  background-position: center;
+  font-family: 'Trebuchet MS', 'Arial', sans-serif;
+}
