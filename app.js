@@ -37044,7 +37044,7 @@ var ProductWeight = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].di
 var ProductBottomText = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "product__ProductBottomText",
   componentId: "sc-1pthb5q-7"
-})(templateObject_8 || (templateObject_8 = __makeTemplateObject(["\n  font-size: 13px;\n  line-height: 15px;\n  font-weight: bold;\n  text-align: center;\n  white-space: nowrap;\n  color: ", ";\n\n  a {\n    color: #22a7e9;\n    border-bottom: 1px dashed;\n  }\n"], ["\n  font-size: 13px;\n  line-height: 15px;\n  font-weight: bold;\n  text-align: center;\n  white-space: nowrap;\n  color: ", ";\n\n  a {\n    color: #22a7e9;\n    border-bottom: 1px dashed;\n  }\n"])), function (props) {
+})(templateObject_8 || (templateObject_8 = __makeTemplateObject(["\n  font-size: 13px;\n  line-height: 15px;\n  font-weight: bold;\n  text-align: center;\n  white-space: nowrap;\n  color: ", ";\n\n  a {\n    color: #22a7e9;\n    border-bottom: 1px dashed;\n    text-decoration: none;\n  }\n"], ["\n  font-size: 13px;\n  line-height: 15px;\n  font-weight: bold;\n  text-align: center;\n  white-space: nowrap;\n  color: ", ";\n\n  a {\n    color: #22a7e9;\n    border-bottom: 1px dashed;\n    text-decoration: none;\n  }\n"])), function (props) {
   return props.state === 'disabled' ? '#FFFF66' : '#ffffff';
 });
 function Product(_a) {
