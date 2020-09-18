@@ -143,6 +143,7 @@ const ProductBottomText = styled.div<ProductStateProps>`
   a {
     color: #22a7e9;
     border-bottom: 1px dashed;
+    text-decoration: none;
   }
 `
 
